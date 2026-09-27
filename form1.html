@@ -134,9 +134,9 @@
             <!-- Expiration / CVV -->
             <div>
                 <label for="expiration">Expiration</label>
-                <input type="text"
-                       id="expiration"
-                       name="expiration">
+              <input type="date"
+                     id="expiration"
+                     name="expiration">
 
                 <label for="cvv">CVV</label>
                 <input type="text"
@@ -146,7 +146,11 @@
 
             <br><br>
 
+            <label for="message">Additional message</label><br>
 
+            <textarea id="message"
+                     name="message"
+                     rows="4"></textarea>
             <!-- Submit -->
             <input type="submit"
                    value="Continue to checkout">
