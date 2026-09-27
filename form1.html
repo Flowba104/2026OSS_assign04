@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <!--사용한 UR: 출처 : https://getbootstrap.com/docs/5.2/examples/checkout/-->
+
+        <h2>Billing address</h2>
+        <form>
+            <div>
+                <label for="first_name">First name</label>
+                <input type="text"
+                       id="first_name"
+                       name="first_name">
+
+                <label for="last_name">Last name</label>
+                <input type="text"
+                       id="last_name"
+                       name="last_name">
+            </div>
+            <br>
+            <label for="username">Username</label><br>
+            <input type="text"
+                   id="username"
+                   name="username"
+                   placeholder="Username">
+
+            <br><br>
+            <label for="email">Email (Optional)</label><br>
+            <input type="text"
+                   id="email"
+                   name="email"
+                   placeholder="you@example.com">
+
+            <br><br>
+            <!-- Address -->
+            <label for="address">Address</label><br>
+            <input type="text"
+                   id="address"
+                   name="address"
+                   placeholder="1234 Main St">
+
+            <br><br>
+            <!-- Address 2 -->
+            <label for="address2">Address 2 (Optional)</label><br>
+            <input type="text"
+                   id="address2"
+                   name="address2"
+                   placeholder="Apartment or suite">
+
+            <br><br>
+            <!-- Country / State / Zip -->
+            <div>
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="">Choose...</option>
+                    <option value="usa">United States</option>
+                </select>
+
+                <label for="state">State</label>
+                <select id="state" name="state">
+                    <option value="">Choose...</option>
+                    <option value="california">California</option>
+                </select>
+
+                <label for="zip">Zip</label>
+                <input type="text"
+                       id="zip"
+                       name="zip">
+            </div>
+            <br>
+            <!-- Checkboxes -->
+            <input type="checkbox"
+                   id="same_address"
+                   name="same_address"
+                   value="yes">
+
+            <label for="same_address">
+                Shipping address is the same as my billing address
+            </label>
+            <br>
+            <input type="checkbox"
+                   id="save_info"
+                   name="save_info"
+                   value="yes">
+
+            <label for="save_info">
+                Save this information for next time
+            </label>
+            <br><br>
+
+            <!-- Payment -->
+            <h2>Payment</h2>
+
+            <input type="radio"
+                   id="credit"
+                   name="payment"
+                   value="credit">
+            <label for="credit">Credit card</label>
+
+            <br>
+
+            <input type="radio"
+                   id="debit"
+                   name="payment"
+                   value="debit">
+            <label for="debit">Debit card</label>
+
+            <br>
+
+            <input type="radio"
+                   id="paypal"
+                   name="payment"
+                   value="paypal">
+            <label for="paypal">PayPal</label>
+
+            <br><br>
+            <label for="card_name">Name on card</label><br>
+            <input type="text"
+                   id="card_name"
+                   name="card_name">
+
+            <br><br>
+
+
+            <!-- Credit card number -->
+            <label for="card_number">Credit card number</label><br>
+            <input type="text"
+                   id="card_number"
+                   name="card_number">
+
+            <br><br>
+
+
+            <!-- Expiration / CVV -->
+            <div>
+                <label for="expiration">Expiration</label>
+              <input type="date"
+                     id="expiration"
+                     name="expiration">
+
+                <label for="cvv">CVV</label>
+                <input type="text"
+                       id="cvv"
+                       name="cvv">
+            </div>
+
+            <br><br>
+
+            <label for="message">Additional message</label><br>
+
+            <textarea id="message"
+                     name="message"
+                     rows="4"></textarea>
+            <!-- Submit -->
+            <input type="submit"
+                   value="Continue to checkout">
+        </form>
+
+    </body>
+</html>
+```
