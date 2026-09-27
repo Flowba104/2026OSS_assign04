@@ -60,7 +60,7 @@ Form을 만들면서 First name과 Last name, Expiration과 CVV처럼 서로 관
 
 
 ### Solution
-서로 관련된 입력 요소들을 <div>로 묶고 CSS의 display 속성을 활용하여 한 줄에 배치했습니다. 또한 width, margin, padding 등을 조절하면서 각 입력 칸의 크기와 간격을 맞췄습니다. 이를 통해 Form의 요소들을 목적에 따라 묶어서 배치하는 방법을 알게 되었습니다.
+서로 관련된 입력 요소들을 <div>로 묶어 한 영역에 배치했습니다. 또한 width, margin, padding 등을 조절하면서 입력 칸의 크기와 간격을 조절했습니다. 이를 통해 Form의 요소들을 목적에 따라 묶어서 배치하는 방법을 알게 되었습니다.
 
 
 ## 5. Reflection
